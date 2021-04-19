@@ -1,0 +1,42 @@
+body{
+  background-image: url("../../images/gallery/13.jpg");
+  background-position: inherit;
+  background-size: cover;
+  
+}
+
+#header{
+  height: 800px;
+}
+#reserva img{
+  width: 100%;
+}
+#reserva h3{
+  letter-spacing: 0;
+  font-size: .9em;
+}
+
+#reserva ul{
+  font-size: .8em;
+  text-align: justify;
+  list-style-type: decimal;
+  margin-left: .3em;
+}
+
+
+@media screen and (max-width: 736px) {
+  #content header.style1{
+    padding-bottom: 0;
+  }
+}
+
+form select {
+  color: #555 !important;
+		font-style: normal;
+    padding: 0.75em 1em 1em 1em i !important;
+} 
+select:first-child {
+  color: #555 !important;
+		font-style: italic;
+    padding: 0.75em 1em 1em 1em i !important;
+} 

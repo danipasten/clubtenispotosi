@@ -1,0 +1,114 @@
+body{
+  background-image: url("../../images/banners/2PTC_HISTORIA.jpg");
+  background-position: inherit;
+  background-size: cover;
+}
+
+#header{
+  height: 800px;
+}
+
+.timeline{
+  width: 100%; 
+  text-align: center;
+}
+
+.dates-container{
+  width: 100%;
+  border-top: 2px dashed #e96e5c;
+  
+}
+.dates{
+  
+  display: inline-flex;
+  
+  transform: translateY(-1.5em);
+}
+
+.dates label{  
+  margin: 0 5em;
+  border-radius: 100%;
+  border: 2px solid #e96e5c;
+  color: #e96e5c;
+  background: #FFF url("images/overlay.png");
+  height: 4em;
+  width: 4em;  
+  padding: .8em .3em;
+  cursor: pointer;
+  font-size: .8em;
+}
+
+@media screen and (max-width: 600px) {
+  .dates label{
+    margin: 0 2em;
+  }
+}
+@media screen and (max-width: 350px) {
+  .dates label{
+    margin: 0 1em;
+  }
+}
+
+
+#ck-1915:checked ~ * #lb-1915,
+#ck-1940:checked ~ * #lb-1940,
+#ck-1965:checked ~ * #lb-1965,
+#ck-2021:checked ~ * #lb-2021{
+	background:#e96e5c!important  ;
+  color: white !important;
+}
+
+#content-1915,
+#content-1940,
+#content-1965,
+#content-2021{
+  transition: opacity 2s ease-out;
+    opacity: 0;
+    height: 0;
+    overflow: hidden;
+}
+
+#ck-1915:checked ~ * .content-timeline #content-1915,
+#ck-1940:checked ~ * .content-timeline #content-1940,
+#ck-1965:checked ~ * .content-timeline #content-1965,
+#ck-2021:checked ~ * .content-timeline #content-2021{
+	opacity: 1;
+    height: auto;
+}
+
+.content-timeline table{
+  font-size: .8em;
+  display: inline-block;
+  width: initial;
+}
+.content-timeline table td{
+  padding: .1em .8em;
+  width: 20em;
+}
+.content-timeline table td:first-child{
+  text-align: right;
+  background: #282b34  ;
+  color: white;
+  border: 1px solid white;
+  border-right: 1px solid #282b34  ;
+}
+.content-timeline table td:last-child{
+  text-align: left;
+  border: 1px solid #282b34  ;
+}
+.content-timeline table tr:first-child td:first-child{
+  border-top: 1px solid #282b34  ;
+}
+.content-timeline table tr:last-child td:first-child{
+  border-bottom: 1px solid #282b34  ;
+}
+.content-timeline h3{
+  color: #282b34;
+  font-weight:300;
+  font-size: 2em;
+  text-align: right;
+}
+.content-timeline{
+  margin-top: 1em;
+}
+

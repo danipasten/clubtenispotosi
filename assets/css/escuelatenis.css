@@ -1,0 +1,19 @@
+body{
+  background-image: url("../../images/gallery/13.jpg");
+  background-position: inherit;
+  background-size: cover;
+  
+}
+
+#header{
+  height: 800px;
+}
+#escuelatenis img{
+  width: 100%;
+}
+
+@media screen and (max-width: 736px) {
+  #content header.style1{
+    padding-bottom: 0;
+  }
+}

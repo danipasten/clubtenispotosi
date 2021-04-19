@@ -1,0 +1,48 @@
+body{
+  background-image: url("../../images/banners/5PTC_DATOS.jpg");
+  background-position: inherit;
+  background-size: cover;
+  
+}
+
+#header{
+  height: 800px;
+}
+.group-item{
+  display: block;
+  text-align: center;
+  width: 100%;
+  padding-top: .8em;
+}
+.group-item .number{
+  font-size: 3em;
+  color: rgba(44, 50, 63, 1);  
+  font-weight: 500;
+  margin-bottom: .2em;
+}
+.group-item .text{
+  font-size: .8em;   
+  color: rgba(44, 50, 63, 1);
+  letter-spacing: 0;
+  line-height: 1.5;
+  font-weight: 500;
+  
+}
+
+.group-item img{
+  height: 70px;
+  margin-bottom: .4em;
+}
+
+.span-text{
+font-size: .35em;
+font-weight: 500;
+position: absolute;
+margin-top: .5em;
+}
+.span-plus{
+  font-size: .8em;  
+  position: absolute;
+  margin-left: -.6em;
+  font-weight: 400;
+  }
